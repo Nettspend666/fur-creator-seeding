@@ -1,6 +1,6 @@
 # FUR — Concept, Offer & Operating Plan
 
-更新日：2026年9月4日
+更新日：2026年9月5日
 
 ## 1. FURとは
 
@@ -87,7 +87,9 @@ FURは、日本の小〜中規模ファッション・アクセサリーブラ�
 - 返信、質問、断られた理由を記録し、オファーを改善する
 - 「必ず投稿」「売上アップ」など保証に見える表現を使わない
 
-初期候補の優先ブランドはAcka.、Bibiy.、CENEです。送信当日に、新作名、イベント日程、在庫状況を再確認します。
+最新の規模・適合度調査では、PoI、KESSAKU、印（イン）、unigem、Èaphi Journal、LOOKING FOR YOUMOREを優先候補とします。ÈaphiとÈaphi Journalは同じ連絡先を共有するため、重複して営業しません。送信当日に、新作名、イベント日程、在庫状況を再確認します。
+
+2026年9月4日に、Bibiy.、Èaphi、foufou、Lumier、M me eme、IRIS47、Palnart Poc、KESSAKU、unigem、Diaspora skateboards、LIBEREへ初回メールを送信しました。今後は返信率を確認し、規模の大きいブランドよりも上記の小規模候補へ比重を移します。
 
 ## 9. 測定する指標
 

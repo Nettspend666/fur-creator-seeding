@@ -20,4 +20,14 @@ Vercelプロジェクト `fur-creator-seeding` から公開しています。
 vercel deploy --prod
 ```
 
+## Codex / Claude Code の引き継ぎ
+
+作業を始める前に、リモートの最新状態を安全に取り込みます。
+
+```bash
+npm run sync:ai
+```
+
+その後、[`PROJECT_HANDOFF.md`](PROJECT_HANDOFF.md) と [`FUR_CONCEPTS.md`](FUR_CONCEPTS.md) を読んでください。作業完了時は実装と `PROJECT_HANDOFF.md` の更新を同じコミットに含め、`main` へpushします。
+
 問い合わせ: [furcontactpri@gmail.com](mailto:furcontactpri@gmail.com)
