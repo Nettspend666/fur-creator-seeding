@@ -27,13 +27,14 @@ The Google Doc and spreadsheet are currently readable by anyone with the link. A
 
 ## Current website state
 
-- Latest deployed commit: `3920ec5`.
+- Latest deployed commit before the current work: `3920ec5`.
 - Production was deployed manually with Vercel CLI and verified byte-identical to the deployed HTML.
 - Vercel project: `fur-creator-seeding`; organization: `h22fukuboshita-3008`.
 - There is no Vercel/GitHub integration. Pushing `main` does not deploy.
 - Technical SEO includes canonical metadata, Open Graph, Twitter Card, WebSite/Organization/Service/FAQ structured data, `robots.txt`, and `sitemap.xml`.
 - Accessibility/CWV work includes a correct accessible H1, fixed image dimensions, asynchronous image decoding, and visible FAQ content generated from the same source as its schema.
 - `.vercelignore` excludes environment files, Git metadata, Markdown, `.vercel`, and `node_modules`. Production checks confirmed sensitive/internal paths return 404.
+- The current local work adds `/privacy` and `/legal`, footer links, and sitemap entries. These pages use the same editorial visual language as the main site and avoid inventing missing personal or payment details.
 
 ## Outreach status
 
@@ -53,7 +54,7 @@ Eleven approved emails were sent from `furcontactpri@gmail.com` on 2026-09-04:
 
 All used a common offer explanation plus a brand-specific subject and opening paragraph. A thread heartbeat named `FUR営業メール返信チェック` checks for replies every 30 minutes and must only propose replies; it must never send automatically.
 
-The spreadsheet's `送信トラッカー` still needs these 11 sends and their 2026-09-04 send date recorded. It currently understates outreach.
+The local workbook's `送信トラッカー` records all 11 recipients, actual email channel and address, `送信済み`, the 2026-09-04 send date, and an automatic 2026-09-10 follow-up date. The updated workbook is `/Users/kuboshita/Documents/ChatGPT/FUR/outputs/fur-continuity/japan_creator_outreach_prospects.xlsx`.
 
 ## Prospect research state
 
@@ -68,18 +69,21 @@ The spreadsheet's `送信トラッカー` still needs these 11 sends and their 2
 - Instagram setup kit: `/Users/kuboshita/Downloads/FUR/instagram-setup-kit.md`.
 - Candidate handles that appeared available when checked: `@fur.seeding`, `@fur_seeding`, `@fur.creators`, `@fur.tokyo`, `@furcreatorseeding`.
 - Instagram account creation is not complete. After creation, add the profile to the site footer/contact area and to `Organization.sameAs`, then push and deploy.
-- Creator shortlists are not populated because Instagram discovery requires a logged-in session.
+- A first PoI creator shortlist of 10 public profiles has been populated in the local workbook's `クリエイター選定` sheet. Each row includes a fit note and a risk/confirmation note. These are research candidates only; no creator has been contacted.
+- The public Google Sheet is still the older two-tab `.xlsm` version. Replacing it with the verified five-tab workbook is ready in Chrome, but the upload requires the user's action-time confirmation because it transmits a local file and replaces cloud workbook contents.
+- Google Search Console is open on the authenticated `h22fukuboshita@gmail.com` account. There are no existing or pending properties. Adding the website and generating its verification token requires the user's action-time confirmation.
+- `vercel git connect` was attempted through the authenticated CLI, but Vercel returned that the account lacks a GitHub login connection. The user must approve adding GitHub as a Vercel login connection before the repository can be linked for automatic deployments.
+- Domain availability was checked on 2026-09-05. `fur-seeding.jp`, `fur-creator.jp`, `furseeding.jp`, `fur-creators.jp`, and `fur-pr.jp` returned no WHOIS match; `fur-seeding.jp` is the recommended first choice. Availability can change and must be rechecked at purchase time.
 
 ## Next actions
 
-1. Add the 11 sent emails and dates to the spreadsheet tracker.
-2. Set up Google Search Console: add the URL-prefix property, add the HTML verification token to `index.html`, deploy, verify, submit `sitemap.xml`, and request indexing.
-3. Connect Vercel to GitHub if the user wants automatic deployments.
-4. Choose and register a custom domain to improve brand/search authority.
-5. Add a privacy policy and operator information page.
-6. Create the Instagram account, then add its link and structured-data reference to the site.
-7. Build verified creator shortlists using an authenticated Instagram session.
-8. Research individual FLOOR3.1 exhibitors rather than treating the event itself as one prospect.
+1. With action-time confirmation, replace the public Google Sheet with the verified five-tab workbook.
+2. With action-time confirmation, add the URL-prefix property in Google Search Console, generate the HTML verification token, add it to `index.html`, deploy, verify, submit `sitemap.xml`, and request indexing.
+3. With action-time confirmation, add GitHub as a Vercel login connection, then rerun `vercel git connect` for automatic deployments.
+4. Purchase and connect `fur-seeding.jp` (recommended) or another verified available custom domain; this requires the user's registrar/payment choice.
+5. Choose and create the FUR Instagram account, then add its link and structured-data reference to the site.
+6. Re-verify the PoI shortlist immediately before any creator outreach and replace conflict-heavy candidates as needed.
+7. Research individual FLOOR3.1 exhibitors rather than treating the event itself as one prospect.
 
 ## Handoff format for future sessions
 
@@ -89,4 +93,3 @@ When finishing work, update these four items:
 - **Decisions:** changed pricing, scope, wording, permissions, or user preferences.
 - **Blocked:** why it is blocked and the exact user/external action required.
 - **Next:** the smallest concrete actions in priority order.
-

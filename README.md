@@ -30,4 +30,11 @@ npm run sync:ai
 
 その後、[`PROJECT_HANDOFF.md`](PROJECT_HANDOFF.md) と [`FUR_CONCEPTS.md`](FUR_CONCEPTS.md) を読んでください。作業完了時は実装と `PROJECT_HANDOFF.md` の更新を同じコミットに含め、`main` へpushします。
 
+## 公開ポリシー
+
+- `/privacy` — お問い合わせとシーディング運用に関するプライバシーポリシー
+- `/legal` — 0円の初回運用費を含む、運営者・取引条件の表記
+
+法的氏名、住所、電話番号、支払い方法は推測で掲載せず、確定情報が用意できるまでは請求に応じた開示としています。
+
 問い合わせ: [furcontactpri@gmail.com](mailto:furcontactpri@gmail.com)

@@ -5,6 +5,8 @@
 .git
 .gitignore
 node_modules
+outputs
+scripts
 
 # Internal docs: not part of the marketing site.
 *.md
