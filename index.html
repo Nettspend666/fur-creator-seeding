@@ -10,6 +10,7 @@
   <meta property="og:description" content="選定からアウトリーチ、ギフティング調整、投稿確認、レポートまで。小さく始めるクリエイター施策。">
   <meta property="og:type" content="website">
   <meta property="og:locale" content="ja_JP">
+  <meta property="og:site_name" content="FUR">
   <meta property="og:url" content="https://fur-creator-seeding.vercel.app/">
   <meta property="og:image" content="https://fur-creator-seeding.vercel.app/assets/fur-hero.jpg">
   <meta property="og:image:alt" content="FURクリエイターシーディング — スタジオで商品を撮影するファッションクリエイター">
@@ -28,30 +29,49 @@
   <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "Service",
-      "name": "FUR クリエイターシーディング",
-      "url": "https://fur-creator-seeding.vercel.app/",
-      "image": "https://fur-creator-seeding.vercel.app/assets/fur-hero.jpg",
-      "provider": {
-        "@type": "Organization",
-        "name": "FUR",
-        "url": "https://fur-creator-seeding.vercel.app/",
-        "email": "furcontactpri@gmail.com"
-      },
-      "description": "日本の小〜中規模ファッション・アクセサリーブランド向けに、クリエイター選定、アウトリーチ、ギフティング調整、投稿確認、簡易レポートを提供するサービス。",
-      "areaServed": { "@type": "Country", "name": "Japan" },
-      "serviceType": "クリエイターシーディング・インフルエンサー施策運用",
-      "audience": {
-        "@type": "BusinessAudience",
-        "audienceType": "日本国内のファッション・アクセサリーブランド"
-      },
-      "offers": {
-        "@type": "Offer",
-        "name": "初回テスト",
-        "price": "0",
-        "priceCurrency": "JPY",
-        "description": "初回のFUR運用費は0円。クリエイター報酬、商品代、送料はブランド側負担。"
-      }
+      "@graph": [
+        {
+          "@type": "WebSite",
+          "@id": "https://fur-creator-seeding.vercel.app/#website",
+          "url": "https://fur-creator-seeding.vercel.app/",
+          "name": "FUR",
+          "alternateName": ["FUR Creator Seeding", "FUR クリエイターシーディング"],
+          "inLanguage": "ja"
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://fur-creator-seeding.vercel.app/#organization",
+          "name": "FUR",
+          "alternateName": "FUR Creator Seeding",
+          "url": "https://fur-creator-seeding.vercel.app/",
+          "email": "furcontactpri@gmail.com",
+          "logo": "https://fur-creator-seeding.vercel.app/favicon.svg",
+          "sameAs": ["https://github.com/Nettspend666/fur-creator-seeding"]
+        },
+        {
+          "@type": "Service",
+          "@id": "https://fur-creator-seeding.vercel.app/#service",
+          "name": "FUR クリエイターシーディング",
+          "alternateName": "FUR Influencer Seeding",
+          "url": "https://fur-creator-seeding.vercel.app/",
+          "image": "https://fur-creator-seeding.vercel.app/assets/fur-hero.jpg",
+          "provider": { "@id": "https://fur-creator-seeding.vercel.app/#organization" },
+          "description": "日本の小〜中規模ファッション・アクセサリーブランド向けに、クリエイター選定、アウトリーチ、ギフティング調整、投稿確認、簡易レポートを提供するサービス。",
+          "areaServed": { "@type": "Country", "name": "Japan" },
+          "serviceType": "クリエイターシーディング・インフルエンサー施策運用",
+          "audience": {
+            "@type": "BusinessAudience",
+            "audienceType": "日本国内のファッション・アクセサリーブランド"
+          },
+          "offers": {
+            "@type": "Offer",
+            "name": "初回テスト",
+            "price": "0",
+            "priceCurrency": "JPY",
+            "description": "初回のFUR運用費は0円。クリエイター報酬、商品代、送料はブランド側負担。"
+          }
+        }
+      ]
     }
   </script>
 </head>
@@ -98,7 +118,7 @@
       </div>
       <h2>似合う人を探す。<br><em>届くところまで動かす。</em></h2>
       <div class="statement-bottom">
-        <p>FURは、日本の小〜中規模ファッション・アクセサリーブランドに特化したクリエイターシーディングサービスです。</p>
+        <p>FUR（ファー）は、日本の小〜中規模ファッション・アクセサリーブランドに特化したクリエイターシーディング／インフルエンサーシーディングサービスです。</p>
         <p>ブランド理解から候補選定、DM・メール、ギフティング調整、投稿確認、簡易レポートまでをひとつの流れで運用します。</p>
       </div>
     </section>
@@ -222,7 +242,7 @@
 
   <footer>
     <a class="logo" href="#top">FUR<span>®</span></a>
-    <p>CREATOR SEEDING FOR<br>INDEPENDENT FASHION BRANDS</p>
+    <p>FUR CREATOR SEEDING / INFLUENCER SEEDING<br>FOR INDEPENDENT FASHION BRANDS</p>
     <p>TOKYO / JAPAN<br>© 2026 FUR</p>
   </footer>
 
