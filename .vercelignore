@@ -1,0 +1,10 @@
+# Never ship credentials or repo metadata to a static deployment —
+# every uploaded file becomes a public URL.
+.env*
+.vercel
+.git
+.gitignore
+node_modules
+
+# Internal docs: not part of the marketing site.
+*.md
