@@ -28,7 +28,7 @@ The Google Doc and spreadsheet are currently readable by anyone with the link. A
 ## Current website state
 
 - Latest deployed commit before the current work: `3920ec5`.
-- Production was deployed manually with Vercel CLI and verified byte-identical to the deployed HTML.
+- Production was deployed manually with Vercel CLI. The homepage was verified live after the Search Console meta tag deployment.
 - Vercel project: `fur-creator-seeding`; organization: `h22fukuboshita-3008`.
 - There is no Vercel/GitHub integration. Pushing `main` does not deploy.
 - Technical SEO includes canonical metadata, Open Graph, Twitter Card, WebSite/Organization/Service/FAQ structured data, `robots.txt`, and `sitemap.xml`.
@@ -71,20 +71,19 @@ The local workbook's `送信トラッカー` records all 11 recipients, actual e
 - Candidate handles that appeared available when checked: `@fur.seeding`, `@fur_seeding`, `@fur.creators`, `@fur.tokyo`, `@furcreatorseeding`.
 - Instagram account creation is not complete. After creation, add the profile to the site footer/contact area and to `Organization.sameAs`, then push and deploy.
 - A first PoI creator shortlist of 10 public profiles has been populated in the local workbook's `クリエイター選定` sheet. Each row includes a fit note and a risk/confirmation note. These are research candidates only; no creator has been contacted.
-- The public Google Sheet is still the older two-tab `.xlsm` version. Replacing it with the verified five-tab workbook is ready in Chrome, but the upload requires the user's action-time confirmation because it transmits a local file and replaces cloud workbook contents.
-- Google Search Console is open on the authenticated `h22fukuboshita@gmail.com` account. There are no existing or pending properties. Adding the website and generating its verification token requires the user's action-time confirmation.
-- `vercel git connect` was attempted through the authenticated CLI, but Vercel returned that the account lacks a GitHub login connection. The user must approve adding GitHub as a Vercel login connection before the repository can be linked for automatic deployments.
+- The public Google Sheet was replaced on 2026-09-05 with the verified five-tab `.xlsx` workbook. Public anyone-with-link access remained enabled. A public CSV export of the tracker confirmed all 11 sent rows, their addresses, send dates, and 2026-09-10 follow-up dates.
+- Google Search Console now has a verified URL-prefix property for `https://fur-creator-seeding.vercel.app/` under `h22fukuboshita@gmail.com`. The HTML meta-tag verification succeeded, `sitemap.xml` was accepted with status `Success` and three discovered pages, and the homepage was added to Google's priority crawl queue.
+- Vercel's GitHub login-connection flow reached the GitHub consent page and identified the correct account, `Nettspend666`, but GitHub left the final `Authorize` button disabled and Chrome security policy blocked further automated OAuth interaction. `vercel git connect` still returns that a GitHub login connection is required. The user must finish or retry this consent step manually in Chrome before the repository can be linked for automatic deployments.
 - Domain availability was checked on 2026-09-05. `fur-seeding.jp`, `fur-creator.jp`, `furseeding.jp`, `fur-creators.jp`, and `fur-pr.jp` returned no WHOIS match; `fur-seeding.jp` is the recommended first choice. Availability can change and must be rechecked at purchase time.
 
 ## Next actions
 
-1. With action-time confirmation, replace the public Google Sheet with the verified five-tab workbook.
-2. With action-time confirmation, add the URL-prefix property in Google Search Console, generate the HTML verification token, add it to `index.html`, deploy, verify, submit `sitemap.xml`, and request indexing.
-3. With action-time confirmation, add GitHub as a Vercel login connection, then rerun `vercel git connect` for automatic deployments.
-4. Purchase and connect `fur-seeding.jp` (recommended) or another verified available custom domain; this requires the user's registrar/payment choice.
-5. Choose and create the FUR Instagram account, then add its link and structured-data reference to the site.
-6. Re-verify the PoI shortlist immediately before any creator outreach and replace conflict-heavy candidates as needed.
-7. Verify current follower counts and contact routes for the five active-looking FLOOR3.1 alumni leads, then add only the qualified brands to the tracker. Do not contact the closed FLOOR3.1 organizer.
+1. Finish or retry the GitHub `Authorize Vercel` consent step manually in Chrome, then rerun `vercel git connect` for automatic deployments.
+2. Monitor Search Console for the first crawl/indexing result; do not resubmit the homepage repeatedly because it is already queued.
+3. Purchase and connect `fur-seeding.jp` (recommended) or another verified available custom domain; this requires the user's registrar/payment choice.
+4. Choose and create the FUR Instagram account, then add its link and structured-data reference to the site.
+5. Re-verify the PoI shortlist immediately before any creator outreach and replace conflict-heavy candidates as needed.
+6. Verify current follower counts and contact routes for the five active-looking FLOOR3.1 alumni leads, then add only the qualified brands to the tracker. Do not contact the closed FLOOR3.1 organizer.
 
 ## Handoff format for future sessions
 
