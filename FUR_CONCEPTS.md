@@ -150,6 +150,8 @@ FURは、日本の小〜中規模ファッション・アクセサリーブラ�
 
 PoI向けの一次クリエイター候補10名を、2026年9月5日にログイン済みInstagramの公開プロフィールで確認しました。候補は `risa__yanaga`、`crunkdoggy_`、`h8sgn`、`mirarara_gal`、`mochi_lda`、`u_my_na`、`__oharu__28`、`mayuabo`、`miya_vividnotes`、`yuto_fashion_tsushin` です。送信前に、直近12投稿、PR比率、ブランド競合、事務所・勤務先の受領ルール、希望条件を再確認します。
 
+FLOOR3.1は公式サイト上で閉店・2026年の再開予定なしとなっているため、運営元自体は営業対象にしません。2023年の公式出展資料に掲載された8ブランドのうち、直近の公開活動を確認できた `KOROMOS`、`糸柊子（shishuko）`、`tetta`、`obafer`、`Experiments:Yohsuke` は個別調査候補として残します。`LOF / LANGUAGE OF FLOWERS`、`Training Days`、`y vet` は、現在の公式連絡先を確認できるまで送信しません。
+
 ## 14. 連絡先
 
 - Email：[furcontactpri@gmail.com](mailto:furcontactpri@gmail.com)

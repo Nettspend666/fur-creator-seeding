@@ -62,6 +62,7 @@ The local workbook's `送信トラッカー` records all 11 recipients, actual e
 - Avoid double outreach to Èaphi and Èaphi Journal because they share `contact@eaphi.co.jp`.
 - 9090 runs its own PR Member program and is a poor fit for this offer.
 - Several previously high-ranked brands are much larger than the target segment, including Lumier, 9090, Bibiy., foufou, SHINZO, CENE, and Acka.
+- FLOOR3.1 itself is no longer a viable prospect: its official site says the shop is closed and has no reopening planned for 2026. Its 2023 exhibitor material identified eight independent labels. KOROMOS, 糸柊子（shishuko）, tetta, obafer, and Experiments:Yohsuke have sufficiently recent public activity to remain research leads. LOF / LANGUAGE OF FLOWERS, Training Days, and y vet still need a current official contact route verified before they are added to outreach.
 - The working prospect workbook is `/Users/kuboshita/Downloads/FUR/japan_creator_outreach_prospects.xlsx`. It contains `送信トラッカー`, `レポート雛形`, `クリエイター選定`, and an updated `使い方` sheet.
 
 ## Prepared but unfinished
@@ -83,7 +84,7 @@ The local workbook's `送信トラッカー` records all 11 recipients, actual e
 4. Purchase and connect `fur-seeding.jp` (recommended) or another verified available custom domain; this requires the user's registrar/payment choice.
 5. Choose and create the FUR Instagram account, then add its link and structured-data reference to the site.
 6. Re-verify the PoI shortlist immediately before any creator outreach and replace conflict-heavy candidates as needed.
-7. Research individual FLOOR3.1 exhibitors rather than treating the event itself as one prospect.
+7. Verify current follower counts and contact routes for the five active-looking FLOOR3.1 alumni leads, then add only the qualified brands to the tracker. Do not contact the closed FLOOR3.1 organizer.
 
 ## Handoff format for future sessions
 
