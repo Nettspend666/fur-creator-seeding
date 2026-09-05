@@ -81,9 +81,13 @@ The local workbook's `送信トラッカー` records all 11 recipients, actual e
 ## 2026-09-05 work update
 
 - **Done:** Replaced the generic FLOOR3.1 group row with five individual qualified leads in the local workbook, verified the affected range visually, and scanned the workbook for formula errors. Added five individualized outreach drafts. Rechecked public SEO files and current search visibility.
+- **Done:** Created a 10-slide, 10-minute English presentation on local LLMs at `outputs/presentations/will-ai-be-completely-free-local-llms.pptx`. The deck uses the title “Will AI Be Completely Free? (Soon),” includes a 1,326-word script in speaker notes, uses one licensed Unsplash stock photo plus official QwenLM, MoonshotAI/Kimi, and Ollama project marks, and cites technical sources in the relevant notes. The final PPTX passed package, layout, font, slide-count, and re-import validation, and every slide was rendered and visually inspected.
 - **Decisions:** Keep follower counts blank rather than guessing. Treat all five as priority research leads, but send only after a same-day activity and follower check. Do not contact the closed FLOOR3.1 organizer.
+- **Decisions:** Keep the local-LLM deck editorial and typography-led rather than image-heavy. Present local AI as a balanced economic shift: lower marginal usage cost and stronger control, offset by hardware, electricity, maintenance, capability, freshness, licensing, and security costs. Use a hybrid local/cloud future as an explicitly labeled forecast rather than a certainty.
 - **Blocked:** Vercel–GitHub automatic deployment still requires the user to complete the GitHub authorization flow. Instagram bio and website link still require the mobile app.
+- **Blocked:** The Google Drive connector was unavailable in this Codex session, so the PPTX was not imported or visually checked inside Google Slides. It uses standard editable PowerPoint text, shapes, images, and speaker notes and is intended for Google Slides import.
 - **Next:** Review and approve the five drafts; recheck each brand on send day; then save/send through only one channel per brand. Continue monitoring replies to the eleven already-sent emails.
+- **Next:** Import the local-LLM PPTX into Google Slides, confirm that speaker notes appear, and make any presenter-specific wording changes before delivery.
 
 ## Next actions
 
