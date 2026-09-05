@@ -68,8 +68,7 @@ The local workbook's `送信トラッカー` records all 11 recipients, actual e
 ## Prepared but unfinished
 
 - Instagram setup kit: `/Users/kuboshita/Downloads/FUR/instagram-setup-kit.md`.
-- Candidate handles that appeared available when checked: `@fur.seeding`, `@fur_seeding`, `@fur.creators`, `@fur.tokyo`, `@furcreatorseeding`.
-- Instagram account creation is not complete. After creation, add the profile to the site footer/contact area and to `Organization.sameAs`, then push and deploy.
+- The company Instagram account is active as `@furcontactpri`. On 2026-09-05 its profile link was added to the site footer and to `Organization.sameAs` structured data. Profile bio and website link were still empty when inspected; Instagram's desktop settings said website links can only be edited in the mobile app.
 - A first PoI creator shortlist of 10 public profiles has been populated in the local workbook's `クリエイター選定` sheet. Each row includes a fit note and a risk/confirmation note. These are research candidates only; no creator has been contacted.
 - The public Google Sheet was replaced on 2026-09-05 with the verified five-tab `.xlsx` workbook. Public anyone-with-link access remained enabled. A public CSV export of the tracker confirmed all 11 sent rows, their addresses, send dates, and 2026-09-10 follow-up dates.
 - Google Search Console now has a verified URL-prefix property for `https://fur-creator-seeding.vercel.app/` under `h22fukuboshita@gmail.com`. The HTML meta-tag verification succeeded, `sitemap.xml` was accepted with status `Success` and three discovered pages, and the homepage was added to Google's priority crawl queue.
@@ -81,7 +80,7 @@ The local workbook's `送信トラッカー` records all 11 recipients, actual e
 1. Finish or retry the GitHub `Authorize Vercel` consent step manually in Chrome, then rerun `vercel git connect` for automatic deployments.
 2. Monitor Search Console for the first crawl/indexing result; do not resubmit the homepage repeatedly because it is already queued.
 3. Purchase and connect `fur-seeding.jp` (recommended) or another verified available custom domain; this requires the user's registrar/payment choice.
-4. Choose and create the FUR Instagram account, then add its link and structured-data reference to the site.
+4. Complete the `@furcontactpri` profile bio and add the FUR website link from the Instagram mobile app.
 5. Re-verify the PoI shortlist immediately before any creator outreach and replace conflict-heavy candidates as needed.
 6. Verify current follower counts and contact routes for the five active-looking FLOOR3.1 alumni leads, then add only the qualified brands to the tracker. Do not contact the closed FLOOR3.1 organizer.
 

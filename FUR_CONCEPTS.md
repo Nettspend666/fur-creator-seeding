@@ -143,6 +143,7 @@ FURは、日本の小〜中規模ファッション・アクセサリーブラ�
 
 - 公式サイト：[fur-creator-seeding.vercel.app](https://fur-creator-seeding.vercel.app/)
 - GitHub：[Nettspend666/fur-creator-seeding](https://github.com/Nettspend666/fur-creator-seeding)
+- Instagram：[@furcontactpri](https://www.instagram.com/furcontactpri/)
 - サイトの方向性：東京の独立系ファッションブランドに合う、ブルー、ブラック、ラベンダーを中心としたエディトリアル表現
 - SEOの中心語句：FUR、クリエイターシーディング、ファッションブランド、インフルエンサー施策、日本
 - 技術SEO：canonical、OGP、Twitter Card、JSON-LD、robots.txt、sitemap.xmlを設定済み
