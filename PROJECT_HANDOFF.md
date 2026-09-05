@@ -27,7 +27,7 @@ The Google Doc and spreadsheet are currently readable by anyone with the link. A
 
 ## Current website state
 
-- Latest deployed commit before the current work: `3920ec5`.
+- Latest deployed commit before the current work: `d28e47e`.
 - Production was deployed manually with Vercel CLI. The homepage was verified live after the Search Console meta tag deployment.
 - Vercel project: `fur-creator-seeding`; organization: `h22fukuboshita-3008`.
 - There is no Vercel/GitHub integration. Pushing `main` does not deploy.
@@ -62,7 +62,7 @@ The local workbook's `送信トラッカー` records all 11 recipients, actual e
 - Avoid double outreach to Èaphi and Èaphi Journal because they share `contact@eaphi.co.jp`.
 - 9090 runs its own PR Member program and is a poor fit for this offer.
 - Several previously high-ranked brands are much larger than the target segment, including Lumier, 9090, Bibiy., foufou, SHINZO, CENE, and Acka.
-- FLOOR3.1 itself is no longer a viable prospect: its official site says the shop is closed and has no reopening planned for 2026. Its 2023 exhibitor material identified eight independent labels. KOROMOS, 糸柊子（shishuko）, tetta, obafer, and Experiments:Yohsuke have sufficiently recent public activity to remain research leads. LOF / LANGUAGE OF FLOWERS, Training Days, and y vet still need a current official contact route verified before they are added to outreach.
+- FLOOR3.1 itself is no longer a viable prospect: its official site says the shop is closed and has no reopening planned for 2026. Five alumni labels are now qualified as individual priority leads: KOROMOS, 糸柊子（shishuko）, tetta, obafer, and Experiments:Yohsuke. Their official site/shop/email/Instagram routes and fit notes are in the workbook. Follower counts and current activity must be rechecked immediately before sending. LOF / LANGUAGE OF FLOWERS, Training Days, and y vet still need a current official contact route verified before they are added to outreach.
 - The working prospect workbook is `/Users/kuboshita/Downloads/FUR/japan_creator_outreach_prospects.xlsx`. It contains `送信トラッカー`, `レポート雛形`, `クリエイター選定`, and an updated `使い方` sheet.
 
 ## Prepared but unfinished
@@ -74,6 +74,16 @@ The local workbook's `送信トラッカー` records all 11 recipients, actual e
 - Google Search Console now has a verified URL-prefix property for `https://fur-creator-seeding.vercel.app/` under `h22fukuboshita@gmail.com`. The HTML meta-tag verification succeeded, `sitemap.xml` was accepted with status `Success` and three discovered pages, and the homepage was added to Google's priority crawl queue.
 - Vercel's GitHub login-connection flow reached the GitHub consent page and identified the correct account, `Nettspend666`, but GitHub left the final `Authorize` button disabled and Chrome security policy blocked further automated OAuth interaction. `vercel git connect` still returns that a GitHub login connection is required. The user must finish or retry this consent step manually in Chrome before the repository can be linked for automatic deployments.
 - Domain availability was checked on 2026-09-05. `fur-seeding.jp`, `fur-creator.jp`, `furseeding.jp`, `fur-creators.jp`, and `fur-pr.jp` returned no WHOIS match; `fur-seeding.jp` is the recommended first choice. Availability can change and must be rechecked at purchase time.
+- Five individualized, unsent outreach drafts for KOROMOS, 糸柊子, tetta, obafer, and Experiments:Yohsuke are stored in `FLOOR31_OUTREACH_DRAFTS.md`. Each states that FUR has just launched, the initial FUR operating fee is 0円, an optional 一万円 may be paid only if the client is satisfied, brand-side costs remain separate, and results are not guaranteed.
+- A public search check on 2026-09-05 still did not surface the FUR site for exact-domain or FUR creator-seeding queries. The live canonical tag, Google verification tag, structured data, `robots.txt`, and three-URL sitemap all remained present and reachable. The existing Search Console indexing request should be allowed time to process instead of being resubmitted repeatedly.
+- `npx vercel@latest project inspect fur-creator-seeding` successfully resolved the correct Vercel project. No new website changes were made in this session, and the unresolved GitHub authorization step remains unchanged.
+
+## 2026-09-05 work update
+
+- **Done:** Replaced the generic FLOOR3.1 group row with five individual qualified leads in the local workbook, verified the affected range visually, and scanned the workbook for formula errors. Added five individualized outreach drafts. Rechecked public SEO files and current search visibility.
+- **Decisions:** Keep follower counts blank rather than guessing. Treat all five as priority research leads, but send only after a same-day activity and follower check. Do not contact the closed FLOOR3.1 organizer.
+- **Blocked:** Vercel–GitHub automatic deployment still requires the user to complete the GitHub authorization flow. Instagram bio and website link still require the mobile app.
+- **Next:** Review and approve the five drafts; recheck each brand on send day; then save/send through only one channel per brand. Continue monitoring replies to the eleven already-sent emails.
 
 ## Next actions
 
@@ -82,7 +92,7 @@ The local workbook's `送信トラッカー` records all 11 recipients, actual e
 3. Purchase and connect `fur-seeding.jp` (recommended) or another verified available custom domain; this requires the user's registrar/payment choice.
 4. Complete the `@furcontactpri` profile bio and add the FUR website link from the Instagram mobile app.
 5. Re-verify the PoI shortlist immediately before any creator outreach and replace conflict-heavy candidates as needed.
-6. Verify current follower counts and contact routes for the five active-looking FLOOR3.1 alumni leads, then add only the qualified brands to the tracker. Do not contact the closed FLOOR3.1 organizer.
+6. Review the five FLOOR3.1 alumni drafts. On the approved send day, verify current activity and follower counts, update the tracker, and use only one contact channel per brand.
 
 ## Handoff format for future sessions
 
