@@ -1,6 +1,7 @@
 .DS_Store
 .vercel/
 node_modules/
+.codex-build/
 outputs/
 npm-debug.log*
 .env*

@@ -1,6 +1,6 @@
 # FUR shared project handoff
 
-Last updated: 2026-09-05
+Last updated: 2026-09-08
 
 This file is the shared operational state for Codex and Claude Code. Read it before work and update it in the same commit as every material change.
 
@@ -78,16 +78,16 @@ The local workbook's `送信トラッカー` records all 11 recipients, actual e
 - A public search check on 2026-09-05 still did not surface the FUR site for exact-domain or FUR creator-seeding queries. The live canonical tag, Google verification tag, structured data, `robots.txt`, and three-URL sitemap all remained present and reachable. The existing Search Console indexing request should be allowed time to process instead of being resubmitted repeatedly.
 - `npx vercel@latest project inspect fur-creator-seeding` successfully resolved the correct Vercel project. No new website changes were made in this session, and the unresolved GitHub authorization step remains unchanged.
 
-## 2026-09-05 work update
+## 2026-09-05–08 work update
 
 - **Done:** Replaced the generic FLOOR3.1 group row with five individual qualified leads in the local workbook, verified the affected range visually, and scanned the workbook for formula errors. Added five individualized outreach drafts. Rechecked public SEO files and current search visibility.
-- **Done:** Created a 10-slide, 10-minute English presentation on local LLMs at `outputs/presentations/will-ai-be-completely-free-local-llms.pptx`. The deck uses the title “Will AI Be Completely Free? (Soon),” includes a 1,326-word script in speaker notes, uses one licensed Unsplash stock photo plus official QwenLM, MoonshotAI/Kimi, and Ollama project marks, and cites technical sources in the relevant notes. The final PPTX passed package, layout, font, slide-count, and re-import validation, and every slide was rendered and visually inspected.
+- **Done:** Rebuilt the local-LLM presentation as a 24-slide, 10-minute English deck at `outputs/presentations/Will AI Be Completely Free - Soon.pptx` and `/Users/kuboshita/Downloads/presentations/Will AI Be Completely Free - Soon.pptx`. It has a 1,261-word speaker script in notes, one licensed Unsplash stock photo, official Qwen/Kimi/Ollama marks, staged fade animations on every slide element, and a fade transition on every slide. Package, layout, font, slide-count, re-import, notes, and animation audits passed; all 24 slides were rendered and visually inspected with no overflow. The completed deck was imported into Google Slides and checked in Dia at https://docs.google.com/presentation/d/1_23Nh9EeYq4rKSgejfmKI_XxBpuhxjFMRr5RUGqCj_o/edit. Google Slides shows all 24 slides, their speaker notes, and animation metadata on every slide. Four superseded local PPTX files were moved to `/Users/kuboshita/.Trash/local-llm-deck-superseded-2026-09-08/` and remain recoverable.
 - **Decisions:** Keep follower counts blank rather than guessing. Treat all five as priority research leads, but send only after a same-day activity and follower check. Do not contact the closed FLOOR3.1 organizer.
-- **Decisions:** Keep the local-LLM deck editorial and typography-led rather than image-heavy. Present local AI as a balanced economic shift: lower marginal usage cost and stronger control, offset by hardware, electricity, maintenance, capability, freshness, licensing, and security costs. Use a hybrid local/cloud future as an explicitly labeled forecast rather than a certainty.
+- **Decisions:** Keep the local-LLM deck editorial and typography-led rather than image-heavy, using Helvetica Neue and compact editorial density inspired by the earlier V&A reference without copying its colour palette. Present local AI as a balanced economic shift: lower marginal usage cost and stronger control, offset by hardware, electricity, maintenance, capability, freshness, licensing, security, misuse, and accountability costs. Use a hybrid local/cloud future as an explicitly labeled forecast rather than a certainty.
 - **Blocked:** Vercel–GitHub automatic deployment still requires the user to complete the GitHub authorization flow. Instagram bio and website link still require the mobile app.
-- **Blocked:** The Google Drive connector was unavailable in this Codex session, so the PPTX was not imported or visually checked inside Google Slides. It uses standard editable PowerPoint text, shapes, images, and speaker notes and is intended for Google Slides import.
+- **Blocked:** The two superseded Google Slides drafts remain in Drive until the user confirms their cloud deletion at action time. The completed 24-slide deck is already uploaded and open in Dia.
 - **Next:** Review and approve the five drafts; recheck each brand on send day; then save/send through only one channel per brand. Continue monitoring replies to the eleven already-sent emails.
-- **Next:** Import the local-LLM PPTX into Google Slides, confirm that speaker notes appear, and make any presenter-specific wording changes before delivery.
+- **Next:** Rehearse the 24-slide deck once at roughly 125–130 words per minute and use the two animation clicks per slide as pacing beats. After explicit confirmation, move the two superseded Google Slides drafts to Drive's bin.
 
 ## Next actions
 
