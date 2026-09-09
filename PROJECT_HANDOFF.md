@@ -10,6 +10,7 @@ This file is the shared operational state for Codex and Claude Code. Read it bef
 - Branch: `main`
 - Codex checkout: `/Users/kuboshita/Documents/ChatGPT/FUR`
 - Claude Code checkout: `/Users/kuboshita/Downloads/FUR/site`
+- Economix JP is maintained separately at `/Users/kuboshita/Documents/ChatGPT/ECONOMIX`; FUR is a reference project only and does not contain the Economix source.
 - Start every session with `npm run sync:ai`.
 - End material work by updating this file, committing, and pushing `main`.
 - The two agents do not share live conversation memory. Git commits plus this file are the synchronization layer.
