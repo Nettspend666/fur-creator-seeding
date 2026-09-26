@@ -1,6 +1,6 @@
 # FUR shared project handoff
 
-Last updated: 2026-09-08
+Last updated: 2026-09-26
 
 This file is the shared operational state for Codex and Claude Code. Read it before work and update it in the same commit as every material change.
 
@@ -89,6 +89,15 @@ The local workbook's `送信トラッカー` records all 11 recipients, actual e
 - **Blocked:** The two superseded Google Slides drafts remain in Drive until the user confirms their cloud deletion at action time. The completed 24-slide deck is already uploaded and open in Dia.
 - **Next:** Review and approve the five drafts; recheck each brand on send day; then save/send through only one channel per brand. Continue monitoring replies to the eleven already-sent emails.
 - **Next:** Rehearse the 24-slide deck once at roughly 125–130 words per minute and use the two animation clicks per slide as pacing beats. After explicit confirmation, move the two superseded Google Slides drafts to Drive's bin.
+
+## 2026-09-26 presentation update
+
+- **Done:** Replaced the 24-slide local-LLM deck with a simpler 13-slide, approximately 10-minute presentation titled `Will AI Be Completely Free? — Clear 10-Minute Version`. The editable PPTX is at `outputs/presentations/Will AI Be Completely Free - Clear 10-Minute Version.pptx` and `/Users/kuboshita/Downloads/presentations/Will AI Be Completely Free - Clear 10-Minute Version.pptx`. The native Google Slides copy is https://docs.google.com/presentation/d/1BZOxi_g_LMWr5zDD30Zgras3v6Lc1FDp8CLEkNZc8Lo/edit?usp=drivesdk.
+- **Done:** Added speaker notes to every slide (about 893 words including citations), using a non-technical narrative that opens with familiar ChatGPT and Claude logos, explains local AI in plain language, and balances lower visible usage costs with hardware, electricity, maintenance, privacy, misuse, and capability limits. The deck uses one licensed stock photo, a small set of product logos, and one explicitly illustrative editable cost chart.
+- **Done:** Verified the PPTX for package integrity, overflow, fonts, notes, and first-party Artifact Tool re-import. Read the imported native Google Slides deck back through the Slides connector, ran the output issue checker with zero findings, exported it to a 13-page PDF, rendered every page, and visually inspected the final montage.
+- **Decisions:** Prefer clean typography and one idea per slide over block/card layouts. Avoid object-by-object build animations; all information should be visible immediately so the presenter is never waiting for missing text. Keep the language accessible and avoid repeating technical concepts.
+- **Blocked:** `npm run sync:ai` could not complete because the repository contains a broken local Codex checkpoint reference under `refs/codex/turn-diffs/checkpoints/`; Git reports a bad object before fetching from `origin`. The presentation deliverables are complete, but repository commit/push may require that internal ref to be repaired or removed.
+- **Next:** Rehearse once with the speaker notes and shorten individual notes only if the presenter speaks slowly. Delete or move older Google Slides drafts to Drive's bin only after the user explicitly confirms the exact cloud files at action time.
 
 ## Next actions
 
