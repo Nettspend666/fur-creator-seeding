@@ -1,6 +1,6 @@
 # FUR shared project handoff
 
-Last updated: 2026-09-26
+Last updated: 2026-09-27
 
 This file is the shared operational state for Codex and Claude Code. Read it before work and update it in the same commit as every material change.
 
@@ -98,6 +98,16 @@ The local workbook's `送信トラッカー` records all 11 recipients, actual e
 - **Decisions:** Prefer clean typography and one idea per slide over block/card layouts. Avoid object-by-object build animations; all information should be visible immediately so the presenter is never waiting for missing text. Keep the language accessible and avoid repeating technical concepts.
 - **Blocked:** `npm run sync:ai` could not complete because the repository contains a broken local Codex checkpoint reference under `refs/codex/turn-diffs/checkpoints/`; Git reports a bad object before fetching from `origin`. The presentation commit itself was pushed successfully to `main`, but the internal checkpoint ref still needs repair before the normal sync command will work again.
 - **Next:** Rehearse once with the speaker notes and shorten individual notes only if the presenter speaks slowly. Delete or move older Google Slides drafts to Drive's bin only after the user explicitly confirms the exact cloud files at action time.
+
+## 2026-09-27 presentation revision
+
+- **Done:** Reworked the local-AI deck again after feedback that the visible copy and numbered lists felt AI-generated. The final user-facing PPTX is now `outputs/presentations/Will AI Be Completely Free - Final.pptx` and `/Users/kuboshita/Downloads/presentations/Will AI Be Completely Free - Final.pptx`. The native Google Slides version is https://docs.google.com/presentation/d/1Ryrvs8spPiQZKnf8o7RGHSZy2RNvq23zJq54esDod_g/edit?usp=drivesdk.
+- **Done:** Removed the repeated `01 / 02 / 03` structures and most list-style copy. Each slide now presents one short spoken idea, while the complete approximately 10-minute script remains in speaker notes on all 13 slides. The ChatGPT mark on slide 2 is a downloaded Wikimedia Commons logo image rather than a generated or reconstructed asset.
+- **Done:** Revalidated the PPTX package, layout, font use, native chart, and first-party re-import; rendered and inspected all slides with no overflow. Read back the native Google Slides file, confirmed 13 slides and 13 speaker-note sections, ran the Slides issue checker with zero findings, and visually inspected the 13-page Google PDF export.
+- **Done:** Moved superseded local PPTX files to `/Users/kuboshita/.Trash/local-llm-deck-superseded-2026-09-27/` and left only the final deck in `Downloads/presentations` and the repository output folder.
+- **Decisions:** Use images only when the speaker script calls for them: internet-sourced logos for familiar products, one stock laptop photo for the local-device explanation, and one chart for the cost comparison. Avoid decorative images, numbered benefit lists, and formulaic three-part slide copy.
+- **Blocked:** `npm run sync:ai` still fails on the same broken local Codex checkpoint reference under `refs/codex/turn-diffs/checkpoints/`. Explicit commits and pushes to `main` continue to work.
+- **Next:** Rehearse from the speaker notes once and adjust only the notes if the actual speaking pace differs from 10 minutes. Delete older Google Slides versions only after the user confirms the exact cloud files at action time.
 
 ## Next actions
 
