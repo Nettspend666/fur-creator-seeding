@@ -109,6 +109,16 @@ The local workbook's `送信トラッカー` records all 11 recipients, actual e
 - **Blocked:** `npm run sync:ai` still fails on the same broken local Codex checkpoint reference under `refs/codex/turn-diffs/checkpoints/`. Explicit commits and pushes to `main` continue to work.
 - **Next:** Rehearse from the speaker notes once and adjust only the notes if the actual speaking pace differs from 10 minutes. Delete older Google Slides versions only after the user confirms the exact cloud files at action time.
 
+## 2026-09-28 presentation revision
+
+- **Done:** Revised slide 4, `What if the AI stayed on your laptop?`, in both the local PowerPoint and the existing native Google Slides deck. Removed the previous subtitle-style copy and replaced it with four concise native bullets: no internet connection required, private files stay on the device, no cloud bill per question, and faster routine tasks.
+- **Done:** Replaced the generic coding-desk stock photo with an official NVIDIA DGX Spark press image showing a personal AI computer beside a laptop. Updated slide 4 speaker notes with the revised explanation and NVIDIA source links.
+- **Done:** Revalidated and rendered the complete 13-slide PowerPoint. The final local file remains `outputs/presentations/Will AI Be Completely Free - Final.pptx`, with an identical copy at `/Users/kuboshita/Downloads/presentations/Will AI Be Completely Free - Final.pptx`. The existing Google Slides URL remains https://docs.google.com/presentation/d/1Ryrvs8spPiQZKnf8o7RGHSZy2RNvq23zJq54esDod_g/edit.
+- **Done:** Read the updated Google Slides deck back from Drive, confirmed 13 slides, four native bullets on slide 4, the new image, and updated notes; the native issue checker reported zero findings. Exported the deck to a 13-page PDF and visually checked the revised slide and full-deck montage.
+- **Done:** Moved superseded PowerPoint copies and validation scratch artifacts to `/Users/kuboshita/.Trash/local-llm-deck-superseded-2026-09-28/`; they remain recoverable.
+- **Blocked:** `npm run sync:ai` still fails because of the same broken local Codex checkpoint reference under `refs/codex/turn-diffs/checkpoints/`. Do not use a destructive Git repair without separately investigating that internal ref.
+- **Next:** Rehearse slide 4 with the revised notes and confirm the four benefit lines feel natural at the intended speaking pace.
+
 ## Next actions
 
 1. Finish or retry the GitHub `Authorize Vercel` consent step manually in Chrome, then rerun `vercel git connect` for automatic deployments.
