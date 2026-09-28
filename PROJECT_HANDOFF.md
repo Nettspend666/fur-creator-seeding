@@ -1,6 +1,6 @@
 # FUR shared project handoff
 
-Last updated: 2026-09-27
+Last updated: 2026-09-28
 
 This file is the shared operational state for Codex and Claude Code. Read it before work and update it in the same commit as every material change.
 
@@ -116,8 +116,10 @@ The local workbook's `送信トラッカー` records all 11 recipients, actual e
 - **Done:** Revalidated and rendered the complete 13-slide PowerPoint. The final local file remains `outputs/presentations/Will AI Be Completely Free - Final.pptx`, with an identical copy at `/Users/kuboshita/Downloads/presentations/Will AI Be Completely Free - Final.pptx`. The existing Google Slides URL remains https://docs.google.com/presentation/d/1Ryrvs8spPiQZKnf8o7RGHSZy2RNvq23zJq54esDod_g/edit.
 - **Done:** Read the updated Google Slides deck back from Drive, confirmed 13 slides, four native bullets on slide 4, the new image, and updated notes; the native issue checker reported zero findings. Exported the deck to a 13-page PDF and visually checked the revised slide and full-deck montage.
 - **Done:** Moved superseded PowerPoint copies and validation scratch artifacts to `/Users/kuboshita/.Trash/local-llm-deck-superseded-2026-09-28/`; they remain recoverable.
+- **Done:** Redesigned slide 6 after feedback that `without a meter running` was unclear and left the right side empty. The slide now explains the specific idea: the user's computer produces the next answer with no separate cloud charge, while the device and electricity still cost money. A balanced two-column composition uses the full canvas and leads directly into the cost chart on slide 7.
+- **Done:** Updated slide 6 and its speaker notes in both the canonical PowerPoint and the existing Google Slides deck. Revalidated and rendered all 13 PowerPoint slides, then read back, issue-checked, exported, and visually reviewed the native Google Slides deck with zero structural findings.
 - **Blocked:** `npm run sync:ai` still fails because of the same broken local Codex checkpoint reference under `refs/codex/turn-diffs/checkpoints/`. Do not use a destructive Git repair without separately investigating that internal ref.
-- **Next:** Rehearse slide 4 with the revised notes and confirm the four benefit lines feel natural at the intended speaking pace.
+- **Next:** Rehearse slides 4–7 as one section and confirm the transition from on-device benefits to the cost comparison feels natural.
 
 ## Next actions
 
